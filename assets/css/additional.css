@@ -1,0 +1,195 @@
+.h3-cl{
+        font-size:32px;
+    }
+    .h3-cl2{
+        font-size:26px;
+    }
+.banner-titles {
+    position: absolute;
+    top:100px;
+    vertical-align:middle;
+    display:tabel-cell;
+    right:10%;
+}
+
+.banner-part {
+    text-align: left !important;
+}
+
+.banner-part h1 {
+    text-align: left !important;
+    font-size:2vw !important;
+}
+.banner-part h2 {
+    text-align: left !important;
+    font-size:1.5vw !important;
+}
+
+.banner-part li {
+    list-style: disc !important;
+}
+
+.lt-panel{
+    font-size:.8vw !important;
+}
+
+@media screen and (max-width:1920px) and (min-width:1640px) {
+    .banner-titles {
+        right:15% !important;
+        top:60px;
+    }
+}
+@media screen and (max-width:1640px) and (min-width:1450px) {
+    .banner-titles {
+        right: 10% !important;
+        top:10px;
+    }
+}
+
+@media screen and (max-width:1449px) and (min-width:1200px) {
+    .banner-titles {
+        top: 10px !important;
+        right: 10% !important;      
+    }
+}
+
+@media screen and (max-width:1199px) and (min-width:1025px) {
+    .banner-titles {
+        top: 1px !important;
+        right: 1% !important; 
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:900px) {
+    .banner-titles {
+        top: 1px !important;
+        right: 2% !important; 
+        width: 400px !important;
+    }
+
+    
+    .h3-cl2{
+        font-size: 2vw !important
+    }
+    
+}
+
+@media screen and (max-width:900px) and (min-width:720px) {
+    .banner-titles {
+        top: -30px !important;
+        right: 7% !important; 
+        width: 300px !important;
+    }
+
+    .lt-panel h1{
+        font-size: 2vw !important;
+    }
+}
+
+.rights-btn {
+    position: fixed;
+    z-index: 999;
+    top: 180px;
+    cursor: pointer;
+    right: 0;
+}
+
+@media screen and (max-width:640px) {
+    .rights-btn {
+        top: 132px;
+    }
+}
+
+.mobile-read-btn1,
+.mobile-read-btn2 {
+    z-index: 990;
+}
+
+
+.mobile-hero1{
+    position: absolute;
+    z-index: 999;
+    padding: 20%;
+    top: 17vh !important;
+ 
+    
+}
+.mobile-hero1 h1{
+    text-align: center !important;
+    line-height:1.5em;
+    color:#fff;
+    margin-top:20px;
+    font-size:5vw;
+}
+.mobile-hero1 h2{
+    text-align: center !important;
+    line-height:1.5em;
+    color:#fff;
+    font-size:3.5vw;
+}
+.mobile-hero1 h3{
+    text-align: center !important;
+    color:#fff;
+    font-size:17px;
+}
+.mobile-hero1 p{
+    font-size:10px;
+    color:#fff;
+    text-align: center !important;
+    line-height:13px;
+}
+.wht{
+    color:#fff !important;
+    font-size:34px;
+}
+.bt{
+    color:#fff;
+}
+.sm-title{
+    font-family: Merriweather,serif;
+letter-spacing: .025em;
+margin-top:10px;
+}
+.fs28{
+    font-size:26px !important;
+}
+
+@media screen and (max-width:1920px) and (min-width:721px) {
+    .sub-cards{
+        display:block;
+}
+}
+@media screen and (max-width:720px) and (min-width:320px) {
+    .sub-cards{
+        display:none;
+}
+}
+.san-btn{
+    position: absolute;bottom: 32px;left: 30%;
+}
+.dis-btn{
+    position: absolute;bottom: 32px;right: 30%;
+}
+.dis-btn button{
+   background:#086b82; 
+}
+.mw-banner{
+    background:url("../images/mtek.webp");
+    background-size:cover;
+    color:#fff;
+}
+
+
+.marquee1{
+    background: #324448;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.marquee1:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+

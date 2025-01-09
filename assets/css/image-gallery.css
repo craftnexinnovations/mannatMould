@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  /*word-break: break-all;*/
+}
+
+row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+row,
+row > column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #fff;
+  padding: 10px;
+    position: relative;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn-products {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-products:hover {
+  background-color: #ddd;
+}
+
+.btn-products.active {
+  background-color: #21accc;
+  color: white;
+}
+.search-icon img {
+    position: absolute;
+    top: .8em;
+    right: .8em;
+    font-size: 2em;
+    z-index: 9;
+    width: 36px;
+    height: 36px;
+    background: 
+    #fff;
+    text-indent: -9999px;
+    border-radius: 100%;
+    box-sizing: content-box;
+    backface-visibility: hidden;
+}
